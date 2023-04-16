@@ -1,0 +1,79 @@
+/* App.css */
+body {
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .app {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #111;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    color: #fff;
+  }
+  
+  /* Note.css */
+  .note-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .note-input {
+    flex: 1;
+    padding: 15px 25px;
+    font-size: 16px;
+    border: none;
+    background-color: #FFD54F;
+    color: #000;
+  }
+  
+  .note-button {
+    padding: 15px 25px;
+    font-size: 16px;
+    background-color: #FFD54F;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .note-button:hover {
+    background-color: #FFC107;
+    color: #fff;
+  }
+  
+  /* NoteList.css */
+  .note-list {
+    list-style: none;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  } 
+  
+  .note-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+    width: 300px; /* or any other fixed value */
+    min-width: 200px; /* or any other minimum width value */
+  }
+
+ 
+  
+  
