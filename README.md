@@ -1,2 +1,1 @@
-# patrycja_io_web
-# NotesTakingApp_React
+# adoptuj-pupila
